@@ -1,0 +1,1528 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: hero-new, sans-serif;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'hero-new';
+  src: url(fonts/Hero New Regular.woff)
+}
+
+/* New Hero Thin */
+@font-face {
+  font-family: 'hero-new';
+  src: url("fonts/Hero New Thin.woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* New Hero UltraLight */
+@font-face {
+  font-family: 'hero-new';
+  src: url("fonts/Hero New UltraLight.woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+/* New Hero Light */
+@font-face {
+  font-family: 'hero-new';
+  src: url("fonts/Hero New Light.woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/* New Hero Regular */
+@font-face {
+  font-family: 'hero-new';
+  src: url("fonts/Hero New Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* New Hero Medium */
+@font-face {
+  font-family: 'hero-new';
+  src: url("fonts/Hero New Medium.woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+/* New Hero SemiBold */
+@font-face {
+  font-family: 'hero-new';
+  src: url("fonts/Hero New SemiBold.woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/* New Hero Bold */
+@font-face {
+  font-family: 'hero-new';
+  src: url("fonts/Hero New Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.nav-buttons:hover
+{
+  background:white;
+  cursor:pointer;
+  border-radius:10px;
+  transition: 0.4ms ease;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+button {
+  font-family: hero-new, sans-serif;
+}
+
+.button-price-selected {
+  background: #fff;
+  border: 1px solid #c8c7c7;
+  width: 25%;
+  padding: 13.5px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.button-price:active {
+  background: #fff;
+  border: 1px solid #c8c7c7;
+  width: 25%;
+  padding: 13.5px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.button-price {
+  text-align: center;
+  padding: 13.5px 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: 0 0;
+  outline: 0;
+  width: 25%;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.button-price:hover {
+  background: #fff;
+  border: 1px solid #c8c7c7;
+  width: 25%;
+  padding: 13.5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.design {
+  width: 100%;
+  text-align: left;
+  padding-left: 0;
+  font-size: 14px;
+  color: #555550;
+  margin-bottom: 15px;
+  list-style: circle;
+  margin-left: 8px;
+}
+
+.first-demo:hover
+{
+  cursor: pointer;
+  transform: translate(0, 3px);
+}
+
+.agent
+{
+  padding:16px 15px; width: 319px; margin-left: auto; text-align: center; color: #000;
+  background: #ffeada;
+  box-shadow: none;    border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom: none; margin-top: 16px; margin-right: 13px; cursor: pointer;
+}
+
+.unlimited {
+  padding: 14.5px 15px;
+  width: 319px;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 500;
+  background: #fff;
+  box-shadow: inset 0 -8px 10px 0 RGBA(0, 0, 0, .02);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-bottom: none;
+  margin-top: 16px;
+  margin-left: 13px;
+  cursor: pointer;
+}
+
+.agent:hover {
+  background: #fff;
+}
+
+.when-clicked:hover {
+  box-shadow: 0 20px 10px 0px rgba(0, 0, 0, .08);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.when-clicked:hover .the-get-demo {
+  background: #ff3a3a;
+  color: #fff;
+}
+
+.when-clicked:hover .A-Pricing_Help-Desk {
+  stroke: #fff;
+}
+
+.the-get-demo {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .2s ease-in;
+}
+
+.tickmark {
+  background: url(https://assets.www.happyfox.com/v2/images/pricing-tick.svg) no-repeat left top;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+table,
+thead,
+tbody,
+td {
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 20px;
+  font-weight: 500;
+  color: #323643;
+  border-collapse: collapse;
+}
+
+td {
+  padding-left: 6px;
+}
+
+td a {
+  color: #4c5561;
+  border-bottom: .5px dotted #323643;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+td a:hover {
+  color: #ff3a3a;
+  border-bottom: .5px dotted #ff3a3a;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+tbody td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+tbody tr:hover {
+  background-color: #fafafa;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  align-self: flex-start;
+}
+
+.sticky-table {
+  position: sticky;
+  background: white;
+  top: 61px;
+  font-weight: 600;
+  height: 80px;
+  z-index: 99;
+}
+
+.back-image-grey
+{
+  margin-top: 65px;
+  height: 475px;
+  width: 100%;
+  background: #fafafa;
+}
+
+.faq-content-top
+{
+  background: #fafafa;
+  width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.faq-content
+{
+  height: auto;
+  background: #fff;
+  border-radius: 16px;
+  margin-top: 60px;
+  padding: 60px 100px;
+  box-shadow: 0 20px 10px 0 rgba(0,0,0,.08);
+}
+
+.faq-content h3
+{
+  color: #323643;
+  font-weight: 500;
+  margin: 10px 0 60px;
+  display: block;
+  font-size: 32px;
+  text-align: center;
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.accordion .accordion-item button[aria-expanded="true"] {
+  border-bottom: 1px solid var(--blue);
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 24px 0px;
+  padding-bottom: 28px;
+  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: var(--blue);
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 10px;
+  height: 7px;
+}
+
+
+.accordion .accordion-item button[aria-expanded="true"] {
+  color: var(--blue);
+  transition-delay: 150ms ease;
+  padding-bottom: 10px;
+}
+
+.accordion .accordion-item button[aria-expanded="true"] i {
+  transform: rotate(180deg);
+}
+
+.accordion .accordion-item button[aria-expanded="true"] .icon::after {
+  width: 0;
+}
+
+.accordion .accordion-item button[aria-expanded="true"] + .content {
+  opacity: 1;
+  max-height: 20em;
+  transition: all 200ms linear;
+  font-weight: 200;
+}
+
+.content {
+  opacity: 0;
+  max-height: 0;
+  /* transition: opacity 200ms linear, max-height 200ms linear; */
+}
+
+.content p {
+  font-size: 16px;
+  color: #6d717e;
+  line-height: 30px;
+  font-weight: 300;
+  margin-top: 3px;
+  padding-left: 0.3px;
+  margin-bottom: 30px;
+}
+
+.accordion-title 
+{
+  font-size: 16.5px;
+  color: #000;
+  font-weight: 600;
+}
+
+.product-content
+{
+  margin-top: 150px;
+}
+
+.product-content-inside
+{
+  width: 1140px; padding: 0px 15px; margin: 0 auto;
+}
+
+.product-content h2
+{
+  margin-top: 150px;
+}
+
+.products-tags
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto 80px;
+}
+
+.product-tag
+{
+  padding: 35px 20px;
+  width: 33%;
+  border-radius: 16px;
+  border: 1px solid #fff;
+}
+
+.product-tag:hover
+{
+  border: 1px solid #dadada;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,.08);
+}
+
+.product-tag h4
+{
+  font-size: 24px;
+  color: #000;
+  font-weight: 500;
+  margin-top:19px;
+  margin-bottom: 15px;
+}
+
+.product-tag p
+{
+  font-size: 16px;
+  color: #555;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top:0;
+  margin-bottom: 20px;
+}
+
+.product-tag a
+{
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* added afterwards.  */
+
+header
+{
+  width: 100%; padding-top:10px;
+}
+
+.head-class
+{
+  width: 1140px; height: 46px; padding-left: 15px; padding-right: 15px; margin-left: auto; margin-right: auto;
+}
+
+.products
+{
+  background: #ffecec; font-weight: 500; border: 1px solid rgb(255 58 58 / 20%); padding: 11px 26px; font-size: 15.5px; border-top-left-radius: 10px; border-top-right-radius: 10px; color: #181c20; border-bottom: none; width: 137px; height:46px; display:block;
+}
+
+.nav-bar
+{
+  width:1140px; height:60px; margin-left: auto; margin-right: auto; padding-right:15px; padding-left: 15px;
+}
+
+.nav-inside-bar
+{
+  display:flex; width:68%; margin-left:-4px; height:60px; align-items: center; justify-content: center; font-size: 16px; font-weight: 500; color: #181c20;
+}
+
+.helpdesk
+{
+  padding-left: 13px; font-size: 25px; font-weight: 400;
+}
+
+nav
+{
+  height:61px; 
+}
+
+.nav-bar-height
+{
+   height:60px;
+}
+
+.buttons-bar
+{
+  background: #f5f4f4; width: 1140px; margin: 0 auto 100px; padding: 10px; display: flex; justify-content:space-around; border-radius: 10px;
+}
+
+.pricing-bar
+{
+  width: 1140px; padding: 0px 15px 0px 15px; margin: 0px auto; display: flex;
+}
+
+.pricing-bar-box
+{
+  width: 25%; border-right: 1px solid #eee;
+}
+
+.pricing-bar-box-eplus
+{
+  width: 25%;
+}
+
+#enterpriseplus
+{
+  font-size: 24px;
+}
+
+.main-table
+{
+  width: 1100px; margin: 0 auto;
+}
+
+.main-table-col
+{
+  width:17%;
+}
+
+#enterpriseplus
+{
+  margin: 0 30px 20px 30px; font-weight: 500;
+}
+
+#till990
+{
+  display:table;
+}
+
+#after990
+{
+  display:none;
+}
+
+#after768
+{
+  display:none;
+}
+
+.plansnpricingclass
+{
+  height: 294px;
+}
+
+.allplanspara
+{
+  margin: 80px auto 90px auto; background: red; padding-top: 14px; padding-bottom: 12px; text-align: center; font-weight: 300; background: #f9f9f9; font-size: 16px; border-radius: 16px; max-width: 570px;color:#212529;
+}
+
+@media (max-width:1200px)
+{
+  header
+  {
+    padding-bottom:3px;
+  }
+  .products
+  {
+      display:none;
+  }
+  .head-class
+  {
+    max-width:960px;
+  }
+  .head-class a
+  {
+    padding: 12px 0;
+    font-size: 13px;
+  }
+  .head-class img
+  {
+    max-width:96px;
+  }
+  .hf-productnav__toggle
+  {
+    cursor: pointer;
+    display: block;
+    order: 0;
+    margin-right: 8px;
+    padding: 9px 5px 9px 0;
+    min-width: 18px;
+    height: 30px;
+  }
+  .hf-productnav__toggle span
+  {
+    display: block;
+    margin-bottom: 3px;
+    height: 2px;
+    width: 11px;
+    background: #000;
+    border-radius: 9px;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    transition: .4s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-bar
+  {
+    max-width: 960px;
+  }
+  .nav-inside-bar
+  {
+    display:none;
+  }
+  .agent
+  {
+    width: 267px;
+  }
+  .unlimited
+  {
+    width: 267px;
+  }
+  .helpdesk
+  {
+    font-size: 19px;
+  }
+  #hfNavbarlogo
+  {
+    width: 20px;
+    height: 20px;
+  }
+  nav
+  {
+    height:51px;
+  }
+  .nav-bar-height
+  {
+    height: 50px;
+  }
+  .buttons-bar
+  {
+    width: 960px;
+  }
+  .pricing-bar
+  {
+    width:960px;
+    justify-content: space-evenly;
+  }
+  .when-clicked
+  {
+    width: 24%;
+  }
+  #enterpriseplus
+  {
+    font-size:22px;
+    margin-top:2.5px;
+  }
+  .main-table
+  {
+    width: 915px;
+  }
+  .main-table-col
+  {
+    width:16%;
+  }
+  .sticky-table
+  {
+    top:51px;
+  }
+  .faq-content-top
+  {
+    width:930px;
+  }
+  .product-content-inside
+  {
+    width:960px;
+  }
+}
+
+@media (max-width:1024px)
+{
+  .accordion button
+  {
+    padding-top:54px;
+  }
+  #firstbutton
+  {
+    padding-top:24px;
+  }
+}
+@media (max-width:993px)
+{
+  header
+  {
+    padding-top:1.5px;
+    padding-bottom:1.5px;
+  }
+  .head-class
+  {
+    max-width:720px;
+  }
+  .head-class a
+  {
+    font-size: 13px;
+  }
+  .nav-bar
+  {
+    max-width: 720px;
+  }
+  .agent
+  {
+    width: 331.2px;
+  }
+  .unlimited
+  {
+    width: 331.2px;
+  }
+  .buttons-bar
+  {
+    width: 720px;
+    flex-direction:column;
+    margin-bottom:65px;
+  }
+  .button-price-selected
+  {
+    width:100%;
+  }
+  .button-price
+  {
+    width:100%;
+  }
+  .button-price:hover
+  {
+    width:100%;
+  }
+  .button-price:active
+  {
+    width:100%;
+  }
+  .pricing-bar
+  {
+    width:720px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
+  .when-clicked
+  {
+    width:48%;
+  }
+  #boxone
+  {
+    border-right:0;
+  }
+  #boxtwo
+  {
+    border-left:1px solid #eee;
+    border-right:0;
+  }
+  #boxthree
+  {
+    border-left:1px solid #eee;
+    border-right:0;
+    margin-top:50px;
+  }
+  #boxfour
+  {
+    border-left:1px solid #eee;
+    margin-top:50px;
+  }
+  #till990
+  {
+    display:none;
+  }
+  #after990
+  {
+    display:table;
+    width:690px;
+    margin-top:60px;
+  }
+  #after990 .main-table-col
+  {
+    width:25%;
+  }
+  .sticky-table
+  {
+    height:70px;
+  }
+  tbody tr:nth-child(4n-3),
+  tbody tr:nth-child(4n-2) {
+    background-color: #fff;
+  }
+
+  tbody tr:nth-child(4n-1),
+  tbody tr:nth-child(4n) {
+    background-color: #fafafa;
+  }
+
+  tbody tr:nth-child(4n-3):hover,
+  tbody tr:nth-child(4n-2):hover,
+  tbody tr:nth-child(4n-3):hover + tr,
+  tbody tr:nth-child(4n-2):hover + tr,
+  tbody tr:nth-child(4n-3):hover ~ tr:nth-child(4n-2),
+  tbody tr:nth-child(4n-2):hover ~ tr:nth-child(4n-3) {
+    background-color: #fafafa;
+  }
+
+  #targetDiv
+  {
+    height: 40px;
+  }
+  .faq-content-top
+  {
+    width:690px;
+  }
+  .product-content-inside
+  {
+    width:720px;
+  }
+  .products-tags
+  {
+    flex-wrap:wrap;
+  }
+  .product-tag
+  {
+    width:70%;
+    margin:20px auto 0;
+  }
+}
+
+@media (max-width:769px)
+{
+  .head-class
+  {
+    width:540px;
+  }
+  .nav-bar
+  {
+    max-width: 540px;
+  }
+  .plansnpricingclass
+  {
+    height: 278px;
+  }
+  .agent
+  {
+    width: 244.8px;
+    padding:5px 0;
+    margin-top:19.5px;
+    margin-left:5px;
+    margin-right:20px;
+  }
+  .unlimited
+  {
+    width: 244.8px;
+    padding:5px 0;
+    margin-top:19.5px;
+    margin-left:0px;
+    margin-right:5px;
+  }
+  .buttons-bar
+  {
+    width: 540px;
+    flex-direction:column;
+    margin-bottom:65px;
+  }
+  .pricing-bar
+  {
+    width:540px;
+  }
+  .when-clicked
+  {
+    width:90%;
+    margin:auto;
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  #boxone
+  {
+    border-left:none;
+  }
+  #boxtwo, #boxthree, #boxfour
+  {
+    border-left:none;
+    margin-top:50px;
+  }
+  #enterpriseplus
+  {
+    font-size:24px;
+  }
+  .allplanspara
+  {
+    max-width:510px;
+  }
+  #after990
+  {
+    display:none;
+  }
+  #after768
+  {
+    display:table;
+    width:510px;
+    margin-top:28px;
+  }
+  #firsthead
+  {
+    height:126px;
+  }
+  #targetDiv a
+  {
+    font-size:14.5px;
+  }
+  #after768 td
+  {
+    padding:0px;
+    padding-left:0.5px;
+  }
+  #after768 td a
+  {
+    font-size: 13.6px;
+  }
+  .faq-content-top
+  {
+    width:510px;
+  }
+  .faq-content
+  {
+    padding-left:50px;
+    padding-right:50px
+  }
+  .faq-content h3
+  {
+    line-height: 38px;
+  }
+  #firstbutton
+  {
+    padding-top:26.4px;
+  }
+  .accordion button
+  {
+    padding-top:26.4px;
+    padding-bottom:26.4px;
+  }
+  .product-content-inside
+  {
+    width:540px;
+  }
+  .product-tag
+  {
+    width:90%;
+  }
+  .products-tags
+  {
+    margin-bottom:0px;
+  }
+}
+
+#login-class
+{
+  width: 193px; text-align: right;  font-size: 14px;
+}
+
+#login-class-a
+{
+  font-weight: 300; padding:7px 10px; color: #646f79;
+}
+
+#ppmainheading
+{
+  padding: 7px; margin: 68px 0px 46px; font-size: 40px; font-weight: 500;
+}
+
+@media (max-width:576px)
+{
+  .head-class
+  {
+    max-width:420px;
+  }
+  #login-class
+  {
+    text-align: center;
+    font-size:13px;
+  }
+  #login-class-a
+  {
+    padding: 7px 0;
+  }
+  .nav-bar
+  {
+    max-width: 420px;
+  }
+  .helpdesk
+  {
+    font-size:18px;
+    padding-left:12px;
+    padding-bottom:2px;
+  }
+  .plansnpricingclass
+  {
+    height:222px;
+  }
+  #ppmainheading
+  {
+    padding:0;
+    margin:50px 0;
+    line-height: 1.2;
+  }
+  .agent, .unlimited
+  {
+    width:187.2px;
+    margin:0;
+    padding:25.8px 10px;
+  }
+  .agent h4, .unlimited h4
+  {
+    margin:0;
+  }
+  .agent
+  {
+    margin-right:7px;
+  }
+  .unlimited
+  {
+    margin-left:7px;
+  }
+  .buttons-bar
+  {
+    width:420px;
+  }
+  .pricing-bar
+  {
+    width:420px;
+  }
+  .allplanspara 
+  {
+    width:390px;
+  }
+  .allplanspara br
+  {
+    display:none;
+  }
+  #after768
+  {
+    display:none;
+  }
+  #gmma, #gmmb
+  {
+    margin-left:20px;
+  }
+  .faq-content-top
+  {
+    max-width: 390px;
+  }
+  .product-content-inside
+  {
+    max-width:420px;
+  }
+}
+
+
+
+/*  */
+.table-container {
+  margin: 1rem 0rem 0;
+  padding: 1rem 0 0rem;
+  box-sizing: border-box;
+  margin-top:50px;
+}
+
+.col-name-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  color: #323643;
+  background-color: #fff;
+  position: sticky;
+  top: 3rem;
+  padding: 20px 20px;
+  border-bottom: 1px solid rgba(152, 157, 173, 0.2);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.08);
+}
+
+.col-name-header h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.table-bottom {
+  color: #9b9b9b;
+  padding: 20px 25px;
+  margin: 0;
+}
+
+.table-row {
+  box-sizing: border-box;
+  /* font-size: 14px; */
+  padding: 0 10px;
+}
+
+.table-row h4 {
+  padding: 0 15px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.row-common {
+  font-weight: 300;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.row-common p {
+  padding: 10px 10px 10px 15px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.row-common a {
+  color: #323643;
+  border-bottom: 0.5px dotted #323643;
+  text-decoration: none;
+}
+
+.row-common:hover {
+  background: #f7f7f7;
+}
+
+.ticks-grid {
+  display: grid;
+  grid-template-columns: 0.45fr 0.45fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.table-col {
+  /* padding: 0 40px; */
+  box-sizing: border-box;
+  text-align: left;
+  color: #797879;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.dark {
+  background: #fafafa;
+}
+
+.view-all {
+  display: inline-block;
+  color: #323643;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 10px;
+  border: solid 1px #989dad;
+  border-radius: 4px;
+  margin: 20px 8px 20px 8px;
+  cursor: pointer;
+  background: 0 0;
+}
+
+.tick {
+  width: 20px;
+  height: 20px;
+  background: url("https://assets.www.happyfox.com/v2/images/pricing-tick.svg") no-repeat left top;
+}
+
+.dash {
+  width: 20px;
+  height: 20px;
+  background: url("https://assets.www.happyfox.com/v2/images/pricing-no-tick.svg") no-repeat left top;
+}
+
+@media only screen and (min-width: 1200px) {
+  .table-container {
+    display: none;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-bottom: 0 !important;
+    /* padding-bottom: 0 !important; */
+  }
+
+  .col-name-header {
+    display: flex !important;
+    justify-content: flex-end !important;
+    padding: 2rem 2rem 2rem 0 !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgba(152, 157, 173, 0.2);
+    box-sizing: border-box;
+    position: sticky;
+    top: 3rem;
+    background-color: #fff;
+    text-align: left;
+    color: #323643;
+    min-width: 1140px;
+    max-width: 1140px;
+  }
+
+  .col-name-header h4 {
+    margin: 0;
+    font-size: 20px !important;
+    box-sizing: border-box;
+    width: 180px !important;
+  }
+
+  .table-inner-container {
+    margin: 1rem 2rem 0;
+    min-width: 1120px;
+    max-width: 1120px;
+  }
+
+  .table-bottom {
+    width: 100% !important;
+    padding: 20px 0 !important;
+    max-width: 1070px;
+  }
+
+  .table-row {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  .table-row h4 {
+    padding: 0 5px !important;
+  }
+
+  .row-common {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    box-sizing: border-box;
+  }
+
+  .row-common p {
+    width: 33%;
+    padding: 10px !important;
+    margin: 0;
+  }
+
+  .row-common a {
+    color: #323643;
+    border-bottom: 0.5px dotted #323643;
+    text-decoration: none;
+  }
+
+  .row-common:hover {
+    background: #f7f7f7;
+  }
+
+  .ticks-grid {
+    display: flex !important;
+    width: 65% !important;
+    justify-content: space-around !important;
+  }
+
+  .table-col {
+    width: 22% !important;
+    box-sizing: border-box !important;
+    color: #797879;
+    font-weight: 300;
+    padding: 0 !important;
+  }
+
+  .dark {
+    background: #fafafa;
+  }
+}
+
+
+
+
+
+
+
+
+/*  */
+
+@media only screen and (max-width: 576px) {
+  .products-tag {
+    display: none;
+  }
+  .options-container {
+    display: none;
+  }
+  .scheme-inner-container {
+    padding: 0 25px;
+  }
+  .col-name-header {
+    padding: 20px 87px !important;
+  }
+  .table-inner-container {
+    padding: 0 15px;
+    max-width:420px;
+    margin: 0 auto;
+  }
+  .duration-container {
+    margin: 0px 20px !important;
+  }
+  .table-row
+  {
+    padding:0;
+  }
+  .table-row h4
+  {
+    margin-top:30px;
+    font-weight:500;
+  }
+}
+
+@media (max-width:507px)
+{
+  #thischanged
+  {
+    padding-left:80px !important;
+    padding-right:80px !important;
+  }
+}
+
+@media (max-width:493px)
+{
+  #thischanged
+  {
+    padding-left:60px !important;
+    padding-right:60px !important;
+  }
+}
+
+@media (max-width:481px)
+{
+  .head-class, .nav-bar
+  {
+    max-width: 90%;
+  }
+}
+
+@media (max-width:453px)
+{
+  #thischanged
+  {
+    padding-left:50px !important;
+    padding-right:50px !important;
+  }
+}
+
+@media (max-width:450px)
+{
+  .plansnpricingclass
+  {
+    height:231.4px;
+  }
+  .agent, .unlimited
+  {
+    width:158.4px;
+  }
+  .agent
+  {
+    padding-top:20px;
+  }
+  .agent h4
+  {
+    line-height:1.2;
+  }
+  .unlimited
+  {
+    padding-bottom:35px;
+  }
+  .buttons-bar
+  {
+    width:360px;
+  }
+  .pricing-bar
+  {
+    width:360px;
+  }
+  .allplanspara
+  {
+    width:330px;
+  }
+  .table-inner-container
+  {
+    max-width:360px;
+  }
+  .faq-content-top
+  {
+    width:330px;
+  }
+  .product-content-inside
+  {
+    max-width:90%;
+  }
+}
+
+@media (max-width:453px)
+{
+  #thischanged
+  {
+    padding-left:30px !important;
+    padding-right:30px !important;
+  }
+}
+
+@media (min-width:576px)
+{
+  .table-container
+  {
+    display:none;
+  }
+}
+/*  */

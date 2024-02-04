@@ -1,0 +1,3278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HappyFox Help Desk Software | Ageent-based Pricing</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  
+  <header id="firstDiv">
+    
+    <div class="head-class">
+      
+      <div style="display: flex; align-items: center; height: 46px;">
+        
+        <div style="width: 140px; margin-top: 5px;">
+          
+          <a href="https://www.happyfox.com">
+            <img src="https://assets.www.happyfox.com/v2/images/site-nav/topbar-logo-black.svg" alt="HappyFox Logo"/>
+          </a>
+          
+        </div>
+        
+        <div style="width: 777px ;">
+          
+          <span class="products">
+            Products
+            <img style="margin-left: 1px;" src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" class="hf-productnav__menu-arrow" alt="menu togle arrow" width="8" height="8">
+            
+          </span>
+          
+        </div>
+        
+        <div id="login-class"> 
+          <a href="https://www.happyfox.com/login/" id="login-class-a" >Log In</a>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </header>
+
+  <nav id="secondDiv" style="width:100%; background: #ffecec; border-top: 1px solid rgb(255 58 58 / 20%);">
+      <div class="nav-bar">
+        <div class="nav-bar-height" style="padding-top:3px; padding-bottom:3px; display: flex; align-items: center; justify-content: space-between;">
+          <div style="width: 18%; height:60px; display:flex; align-items: center;">
+            <div class="hf-productnav__toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a href="https://www.happyfox.com" style="font-size: 25px; display:flex; align-items: center; justify-content: space-between;">
+              <img id="hfNavbarlogo" src="https://assets.www.happyfox.com/v2/images/site-nav/HD-logo.svg" alt="happyfox logo" width="30" height="30" class="hf-productnav__logo">
+              <span class="helpdesk">
+                helpdesk
+              </span>
+            </a>
+          </div>
+          
+          <div class = "nav-inside-bar">
+            <div style="padding: 15px;">
+              <div class="nav-buttons" style="padding:7px 15px;">
+              Features <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" class="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10">
+              </div>
+            </div>
+            <div style="padding: 15px;">
+              <div class="nav-buttons" style="padding:7px 15px;">
+              Solutions <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" class="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10">
+              </div>
+            </div>
+            <div style="padding: 15px;">
+              <div class="nav-buttons" style="padding:7px 15px;">
+              Pricing
+              </div>
+            </div>
+            <div style="padding: 15px;">
+              <div class="nav-buttons" style="padding:7px 15px;">
+              Resources <img src="https://assets.www.happyfox.com/v2/images/site-nav/menu-togle-arrow-gray-up.png" class="hf-productnav__menu-arrow" alt="menu togle arrow" width="10" height="10">
+              </div>
+            </div>
+          </div>
+          <div style="width:9%; justify-content: flex-end; text-align:right; height: 60px; display: flex; align-items: center;">
+            <button class="first-demo" style="    background-color: #ff3a3a;
+              transition: all .3s ease;
+              display: inline-block;
+              font-size: 14px;
+              font-weight: 500;
+              color: #fff;
+              font-family: hero-new;
+              outline: 0;
+              border: none;
+              display: inline-block;
+              box-shadow: none;
+              padding: 5px 10px;
+              border-radius: 5px;
+              position: relative;
+              white-space: nowrap;">Get a Demo</button>
+        </div>
+      </div>  
+  </nav>
+
+  <main-content>
+    
+    <div class="plansnpricingclass" style="background: url(https://assets.www.happyfox.com/v2/images/pricing-new-banner-bg-new.png) no-repeat left top; background-size: cover; box-sizing: border-box; width: 100%; display:flex; flex-direction: column; align-items:center;">
+      
+        <h1 id="ppmainheading">
+          Plans & Pricing
+        </h1>
+
+      
+        <div style="display:flex; flex-direction: row; align-items: start; justify-content: space-between; margin: 0 auto;">
+          <a class="agent" > <h4 style="font-weight: 500;">Agent-based pricing</h4> </a>
+          <a href="unlimited.html" class="unlimited"> <h4 style="font-weight: 500; color: #212529;"> Unlimited Agents </h4></a>
+        </div>
+   </div>
+
+    <div style="margin-top: 5px; padding-top: 45px; background: white; width: 100%;">
+      
+      <div id="allButtons" class="buttons-bar" >
+        <button class="button-price-selected" onclick="handleButtonClick(this); handlePricingUpdate('monthly') " >Monthly</button>
+        <button class="button-price" onclick="handleButtonClick(this); handlePricingUpdate('annual') ">Annual</button>
+        <button class="button-price" onclick="handleButtonClick(this); handlePricingUpdate('twoyear') ">2-Year Savings Plan <br> <p style="margin: 0; padding: 0; font-size: 12px;">Paid Up-Front</p> </button>
+        <button class="button-price" onclick="handleButtonClick(this); handlePricingUpdate('threeyear') ">3-Year Contract <br> <p style="margin: 0; padding: 0; font-size: 12px;">Billed Annually</p></button> 
+      </div>
+      
+      <div class="pricing-bar">
+        
+        <div id="boxone" class="when-clicked pricing-bar-box" >
+          <h2 style="margin: 0 30px 20px 30px; font-size: 24px; font-weight: 500;" >Mighty</h2> 
+          <div style="padding:0 25px; padding-bottom: 20px; margin-bottom: 40px; border-bottom: 1px solid #eee;">
+              <span style="font-size: 24px;">$</span> <h1 id="mightyPriceValue" style="display: inline; font-size: 48px; font-weight: 500;"></h1> <span style="font-size: 12px; color: #212529; font-weight:300;">Per agent/mo</span> <br>
+            <span class="savings-paragraph" style="color: #009928; font-weight: 300; display:in-line" ><span class="saving-num"></span>% Savings<sup>*</sup></span>
+          </div>
+          <div style="padding: 20px 35px 41px 35px">
+            <ul style="padding: 0px; margin: 0px;" >
+              <li class="design">Omnichannel Ticket Creation</li>
+              <li class="design">SLA Management</li>
+              <li class="design">Knowledge Base</li>
+              <li class="design">SSO (GSuite/SAML/Azure)</li>
+              <li class="design">SSL Certificate Hosting</li>
+              <li class="design">Migration Assistance</li>
+            </ul>
+          </div>
+        <div style="padding: 0 30px; padding-bottom: 19px; ">
+          <a class="the-get-demo">
+            Get a Demo
+            <svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>Rectangle Copy 28</title>
+                <g id="Help-Desk-Pricing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                    <g class="A-Pricing_Help-Desk" transform="translate(-461.000000, -962.000000)" stroke="#000000" stroke-width="2">
+                        <polyline id="Rectangle-Copy-28" transform="translate(462.000000, 969.000000) rotate(-45.000000) translate(-462.000000, -969.000000) " points="466 965 466 973 458 973"></polyline>
+                    </g>
+                </g>
+            </svg>
+          </a>
+        </div>
+        </div>
+        
+        <div id="boxtwo" class="when-clicked pricing-bar-box">
+          <h2 style="margin: 0 30px 20px 30px; font-size: 24px; font-weight: 500;" >Fantastic</h2> 
+          <div style="padding:0 25px; padding-bottom: 20px; margin-bottom: 40px; border-bottom: 1px solid #eee;">
+              <span style="font-size: 24px;">$</span> <h1 id="fantasticPriceValue" style="display: inline; font-size: 48px; font-weight: 500;"></h1> <span style="font-size: 12px; color: #212529; font-weight:300;">Per agent/mo</span> <br>
+            <span class="savings-paragraph" style="color: #009928; font-weight: 300; display:in-line" ><span class="saving-num"></span>% Savings<sup>*</sup></span>
+          </div>
+            <div style="padding: 20px 35px 41px 35px">
+              <ul style="padding: 0px; margin: 0px;" >
+                <li class="design">Omnichannel Ticket Creation</li>
+                <li class="design">SLA Management</li>
+                <li class="design">Knowledge Base</li>
+                <li class="design">SSO (GSuite/SAML/Azure)</li>
+                <li class="design">SSL Certificate Hosting</li>
+                <li class="design">Migration Assistance</li>
+              </ul>
+            </div>
+          <div style="padding: 0 30px; padding-bottom: 19px;" >
+            <a class="the-get-demo">
+              Get a Demo
+              <svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>Rectangle Copy 28</title>
+                  <g id="Help-Desk-Pricing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                      <g class="A-Pricing_Help-Desk" transform="translate(-461.000000, -962.000000)" stroke="#000000" stroke-width="2">
+                          <polyline id="Rectangle-Copy-28" transform="translate(462.000000, 969.000000) rotate(-45.000000) translate(-462.000000, -969.000000) " points="466 965 466 973 458 973"></polyline>
+                      </g>
+                  </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div id="boxthree" class="when-clicked pricing-bar-box">
+          <h4 style="margin: 0px; padding: 0px; margin-left: 30px; font-weight: 400; color: #ff3a3a; margin-top: -25px; font-size: 14px;" >Most Popular</h4>
+          <h2 style="margin: 0 30px 0px 30px; font-size: 24px; font-weight: 500; padding-bottom:15px;" >Enterprise</h2> 
+            <div style="padding:0 25px; margin-bottom: 40px; border-bottom: 1px solid #eee; margin-top: 15px; padding-bottom:15px;">
+                <span style="font-size: 24px;">$</span> <h1 id="enterprisePriceValue" style="display: inline; font-size: 48px; font-weight: 500;"></h1> <span style="font-size: 12px; color: #212529; font-weight:300;">Per agent/mo</span> <br>
+              <span class="savings-paragraph" style="color: #009928; font-weight: 300; display:in-line" ><span class="saving-num"></span>% Savings<sup>*</sup></span>
+            </div>
+            <div style="padding: 20px 35px 41px 35px">
+              <ul style="padding: 0px; margin: 0px;" >
+                <li class="design">Omnichannel Ticket Creation</li>
+                <li class="design">SLA Management</li>
+                <li class="design">Knowledge Base</li>
+                <li class="design">SSO (GSuite/SAML/Azure)</li>
+                <li class="design">SSL Certificate Hosting</li>
+                <li class="design">Migration Assistance</li>
+              </ul>
+            </div>
+          <div style="padding: 0 30px; padding-bottom: 19px;" >
+            <a  class="the-get-demo">
+              Get a Demo
+              <svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>Rectangle Copy 28</title>
+                  <g id="Help-Desk-Pricing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                      <g class="A-Pricing_Help-Desk" transform="translate(-461.000000, -962.000000)" stroke="#000000" stroke-width="2">
+                          <polyline id="Rectangle-Copy-28" transform="translate(462.000000, 969.000000) rotate(-45.000000) translate(-462.000000, -969.000000) " points="466 965 466 973 458 973"></polyline>
+                      </g>
+                  </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div id="boxfour" class="when-clicked prcing-par-box-eplus">
+          <h2 id="enterpriseplus">Enterprise Plus</h2> 
+          <div style="padding:0 25px; padding-bottom: 20px; margin-bottom: 40px; border-bottom: 1px solid #eee;">
+              <span style="font-size: 24px;">$</span> <h1 id="enterpriseplusPriceValue" style="display: inline; font-size: 48px; font-weight: 500;"></h1> <span style="font-size: 12px; color: #212529; font-weight:300;">Per agent/mo</span> <br>
+            <span class="savings-paragraph" style="color: #009928; font-weight: 300; display:in-line" ><span class="saving-num"></span>% Savings<sup>*</sup></span>
+          </div>
+            <div style="padding: 20px 35px 41px 35px">
+              <ul style="padding: 0px; margin: 0px;" >
+                <li class="design">Omnichannel Ticket Creation</li>
+                <li class="design">SLA Management</li>
+                <li class="design">Knowledge Base</li>
+                <li class="design">SSO (GSuite/SAML/Azure)</li>
+                <li class="design">SSL Certificate Hosting</li>
+                <li class="design">Migration Assistance</li>
+              </ul>
+            </div>
+          <div style="padding: 0 30px; padding-bottom: 19px;" >
+            <a  class="the-get-demo">
+              Get a Demo
+              <svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <title>Rectangle Copy 28</title>
+                  <g id="Help-Desk-Pricing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                      <g class="A-Pricing_Help-Desk" transform="translate(-461.000000, -962.000000)" stroke="#000000" stroke-width="2">
+                          <polyline id="Rectangle-Copy-28" transform="translate(462.000000, 969.000000) rotate(-45.000000) translate(-462.000000, -969.000000) " points="466 965 466 973 458 973"></polyline>
+                      </g>
+                  </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+      
+      <p class="allplanspara" >All plans require a minimum of 5 help desk agents. Non-profit and <br> educational organizations are eligible for a discount.</p>
+    </div>
+
+  </main-content>
+
+  <down-content style="width: 100%;">
+      
+      <div style="border-top: 1px solid rgba(0,0,0,.2); width: 100%">
+        <p style="margin: 0px ; padding: 40px 0; text-align: center; font-size: 24px;
+          font-weight: 500;
+          color: #000;
+          transition: all .2s ease-in;
+          padding: 40px 0; margin-bottom: 20px;
+          background: #f8f8f8;">Compare Help Desk Plans</p> 
+      </div>
+
+    <!-- Table one -->
+      <table id="till990" class="main-table">
+        <colgroup>
+          <col style="width:31%; padding-left: 10px">
+          <col span="4" class="main-table-col">
+        </colgroup>
+        
+        <thead style="text-align: left; border-bottom: 1px solid rgba(152, 157, 173, 0.2);" class="sticky-table">
+            <tr>
+              <th></th>
+              <th>Mighty</th>
+              <th>Fantastic</th>
+              <th>Enterprise</th>
+              <th>Enterprise Plus</th>
+            </tr>
+          </thead>
+        
+        <tbody>
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:30px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 18px;
+                  color: #000;
+                  font-weight: 500;">Ticket Mangement</td>
+              </tr>
+              <tr style = "height:10px;"></tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><a>Unlimited Mailboxes</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Unlimited Categories</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Unlimited Tickets</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Customizable Statuses</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Customizable Priorities</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Ticket Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Custom Domain Mapping</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+                <tr>
+                    <td><a>Multilingual Agent Portal</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Agent Collision</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Work Schedules</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Custom Roles and Permissions</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Ticket Tagging</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Email Notifications</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Bulk Editing</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Satisfaction Surveys</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Custom Ticket Queues</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Kanban view of tickets</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Proactive Agent Collision</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>SLA Live Timer</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Task Management</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Asset Management</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Unlimited Assets</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Category Wise Statuses</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr>
+                    <td><a>Attachment Store</a></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                </tr>
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:30px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 18px;
+                  color: #000;
+                  font-weight: 500;">Customer Mangement</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><a>Unlimited Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Import Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Unlimited Contact Groups</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Group Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:30px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 18px;
+                  color: #000;
+                  font-weight: 500;">Help Desk Automation</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><a>Unlimited Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Import Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Unlimited Contact Groups</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Group Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:30px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 18px;
+                  color: #000;
+                  font-weight: 500;">Support Center</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><a>Unlimited Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Import Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Unlimited Contact Groups</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Group Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:30px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 18px;
+                  color: #000;
+                  font-weight: 500;">Help Desk Reporting</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><a>Unlimited Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Import Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Unlimited Contact Groups</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Group Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:30px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 18px;
+                  color: #000;
+                  font-weight: 500;">Security</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><a>Unlimited Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Import Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Unlimited Contact Groups</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Group Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:30px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 18px;
+                  color: #000;
+                  font-weight: 500;">Support</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><a>Unlimited Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Import Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Unlimited Contact Groups</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Group Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:30px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 18px;
+                  color: #000;
+                  font-weight: 500;">Third Party Integrations</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><a>Unlimited Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Import Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Unlimited Contact Groups</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Group Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:30px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 18px;
+                  color: #000;
+                  font-weight: 500;">Inbuilt Integrations</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><a>Unlimited Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Import Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Unlimited Contact Groups</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Group Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:30px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 18px;
+                  color: #000;
+                  font-weight: 500;">Mobile</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td><a>Unlimited Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Import Contacts</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Unlimited Contact Groups</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              <tr>
+                <td><a>Contact Group Custom Fields</a></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+            </tbody>
+          </tr>
+          
+        </tbody>
+      </table>
+    
+      <!-- Table Two -->
+      <table id="after990" class="main-table">
+        <colgroup>
+          <col span="4" class="main-table-col">
+        </colgroup>
+
+        <thead style="text-align: left; border-bottom: 1px solid rgba(152, 157, 173, 0.2); " class="sticky-table">
+          <tr>
+            <th style="text-align:left;" >Mighty</th>
+            <th style="padding-left:5px;" >Fantastic</th>
+            <th style="padding-left:14px;" >Enterprise</th>
+            <th style="text-align:right;" >Enterprise Plus</th>
+          </tr>
+          <tr>
+          </tr>
+          </thead>
+
+        <tbody>
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr style="width:50%;">
+                <td style="padding: 3px;     font-size: 16px;
+                  color: #000;
+                  font-weight: 500;">Ticket Mangement</td>
+              </tr>
+              <tr style = "height:25px;"></tr>
+              </thead>
+            
+              <tbody>
+
+                
+              <tr id="targetDiv" >
+                  <td><a>Unlimited Mailboxes</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+              </tr>
+                
+              <tr id="targetDiv" >
+                  <td><a>Unlimited Categories</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+              </tr>
+
+                
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Customer Mangement</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                
+              <tr id="targetDiv" >
+                <td><a>Unlimited Contacts</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr id="targetDiv" >
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+              <tr>
+                <td><a>Import Contacts</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+              
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 14px;
+                  color: #000;
+                  font-weight: 500;">Help Desk Automation</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                <tr id="targetDiv" >
+                  <td><a>Unlimited Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr id="targetDiv" >
+                  <td><a>Import Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Support Center</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                  <tr id="targetDiv" >
+                    <td><a>Unlimited Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+
+                  <tr id="targetDiv" >
+                    <td><a>Import Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+
+                
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Help Desk Reporting</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                <tr id="targetDiv" >
+                  <td><a>Unlimited Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr id="targetDiv" >
+                  <td><a>Import Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Security</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                <tr id="targetDiv" >
+                  <td><a>Unlimited Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr id="targetDiv" >
+                  <td><a>Import Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+                
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Support</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                  <tr id="targetDiv" >
+                    <td><a>Unlimited Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+
+                  <tr id="targetDiv" >
+                    <td><a>Import Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+                
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Third Party Integrations</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+
+                <tr id="targetDiv" >
+                  <td><a>Unlimited Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr id="targetDiv" >
+                  <td><a>Import Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+                
+
+                
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Inbuilt Integrations</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                  <tr id="targetDiv" >
+                    <td><a>Unlimited Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+
+                  <tr id="targetDiv" >
+                    <td><a>Import Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+
+                
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="padding: 3px;     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Mobile</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                <tr id="targetDiv" >
+                  <td><a>Unlimited Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr id="targetDiv" >
+                  <td><a>Import Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                
+              </tbody>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <!-- Table Three -->
+      <table id="after768" class="main-table">
+        <colgroup>
+          <col style="width:27%; padding-left:10px;" >
+           <col style="width:24%;" >
+           <col style="width:24%;" >
+           <col style="width:25%;" >
+        </colgroup>
+
+        <thead id ="firsthead" style="text-align: left; border-bottom: 1px solid rgba(152, 157, 173, 0.2); " class="sticky-table">
+          <tr>
+            <th style="text-align:left;" >Mighty</th>
+            <th style="padding-left:5px;" >Fantastic</th>
+            <th style="padding-left:14px;" >Enterprise</th>
+            <th style="text-align:left; padding-top:30px; padding-left:25px;" >Enterprise Plus</th>
+          </tr>
+          <tr>
+          </tr>
+          </thead>
+
+        <tbody>
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr style="width:50%;">
+                <td style="     font-size: 14.8px;
+                  color: #000;
+                  font-weight: 500;">Ticket Mangement</td>
+              </tr>
+              <tr style = "height:25px;"></tr>
+              </thead>
+
+              <tbody>
+
+
+              <tr id="targetDiv" >
+                  <td><a>Unlimited Mailboxes</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+              </tr>
+
+              <tr id="targetDiv" >
+                  <td><a>Unlimited Categories</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+              </tr>
+
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Customer Mangement</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+
+              <tr id="targetDiv" >
+                <td><a>Unlimited Contacts</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr id="targetDiv" >
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+              <tr>
+                <td><a>Import Contacts</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+                <td><p class="tickmark"></p></td>
+              </tr>
+
+
+            </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="     font-size: 14px;
+                  color: #000;
+                  font-weight: 500;">Help Desk Automation</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                <tr id="targetDiv" >
+                  <td><a>Unlimited Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr id="targetDiv" >
+                  <td><a>Import Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Support Center</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                  <tr id="targetDiv" >
+                    <td><a>Unlimited Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+
+                  <tr id="targetDiv" >
+                    <td><a>Import Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+
+
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Help Desk Reporting</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                <tr id="targetDiv" >
+                  <td><a>Unlimited Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr id="targetDiv" >
+                  <td><a>Import Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Security</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                <tr id="targetDiv" >
+                  <td><a>Unlimited Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr id="targetDiv" >
+                  <td><a>Import Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Support</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                  <tr id="targetDiv" >
+                    <td><a>Unlimited Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+
+                  <tr id="targetDiv" >
+                    <td><a>Import Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Third Party Integrations</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+
+                <tr id="targetDiv" >
+                  <td><a>Unlimited Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr id="targetDiv" >
+                  <td><a>Import Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+
+
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="     font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Inbuilt Integrations</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                  <tr id="targetDiv" >
+                    <td><a>Unlimited Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+
+                  <tr id="targetDiv" >
+                    <td><a>Import Contacts</a></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                    <td><p class="tickmark"></p></td>
+                  </tr>
+
+
+              </tbody>
+          </tr>
+
+          <tr style="width: 1140px; margin: 0 auto;"> 
+            <!-- <colgroup>
+              <col style="width:31%; padding-left: 10px" >
+              <col span="4" style="width:16%">
+            </colgroup> -->
+            <thead style="text-align: left;">
+              <tr style = "height:25px;"></tr>
+              <tr>
+                <td style="    font-size: 15px;
+                  color: #000;
+                  font-weight: 500;">Mobile</td>
+              </tr>
+              <tr style = "height:15px;"></tr>
+              </thead>
+              <tbody>
+
+                <tr id="targetDiv" >
+                  <td><a>Unlimited Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+                <tr id="targetDiv" >
+                  <td><a>Import Contacts</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                  <td><p class="tickmark"></p></td>
+                </tr>
+
+
+              </tbody>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <!-- Table Four -->
+      <div class="table-container">
+        <div id="thischanged" class="col-name-header">
+          <h4>Mighty</h4>
+          <h4 id = "gmma">Fantastic</h4>
+          <h4>Enterprise</h4>
+          <h4 id= "gmmb">Enterprise Plus</h4>
+        </div>
+        <div class="table-inner-container">
+          <div class="table-row table-row-0">
+            <h4>Ticket Management</h4>
+            <div class="row-common row-common-0">
+              <p><a href="dsfs">Unlimimited Mailboxes</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-1 dark">
+              <p><a href="dsfs">Unlimimited Categories</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-2">
+              <p><a href="dsfs">Unlimited Tickets</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-3 dark">
+              <p><a href="dsfs">Customizable Statuses</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-4">
+              <p><a href="dsfs">Customizable Priorities</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-5 dark">
+              <p><a href="dsfs">Ticket Custom Fields</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-6">
+              <p><a href="dsfs">Custom Domain Mapping</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-7 dark">
+              <p><a href="dsfs">Multilingual Agent Portal</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-8">
+              <p><a href="dsfs">Agent Collision</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-9 dark">
+              <p><a href="dsfs">Work Schedules</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-10">
+              <p><a href="dsfs">Custom Roles and Permissions</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-11 dark">
+              <p><a href="dsfs">Ticket Tagging</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-12">
+              <p><a href="dsfs">Email Notifications</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-13 dark">
+              <p><a href="dsfs">Bulk Editing</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-14">
+              <p><a href="dsfs">Satisfaction Surveys</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-15 dark">
+              <p><a href="dsfs">Custom Ticket Queues</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-16">
+              <p><a href="dsfs">Kanban view of tickets</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-17 dark">
+              <p><a href="dsfs">Proactive Agent Collision</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-18">
+              <p><a href="dsfs">SLA Live Timer</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-19 dark">
+              <p><a href="dsfs">Task Management</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-20">
+              <p><a href="dsfs">Asset Management</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-21 dark">
+              <p><a href="dsfs">Unlimited Assets</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-22">
+              <p><a href="dsfs">Category Wise Statuses</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-23 dark">
+              <p><a href="dsfs">Attachment Store</a></p>
+              <div class="ticks-grid">
+                <span class="table-col">50 GB</span>
+                <span class="table-col">500 GB</span>
+                <span class="table-col">1 TB</span>
+                <span class="table-col">2 TB</span>
+              </div>
+            </div>
+          </div>
+          <div class="table-row table-row-1">
+            <h4>Customer Management</h4>
+            <div class="row-common row-common-0">
+              <p><a href="dsfs">Unlimited Contacts</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-1 dark">
+              <p><a href="dsfs">Import Contacts</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-2">
+              <p><a href="dsfs">Contact Custom Fields</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-3 dark">
+              <p><a href="dsfs">Unlimited Contact Groups</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-4">
+              <p><a href="dsfs">Contact Group Custom Fields</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+          </div>
+          <div class="table-row table-row-2">
+            <h4>Help Desk Automation</h4>
+            <div class="row-common row-common-0">
+              <p><a href="dsfs">Smart Rule Automation</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-1 dark">
+              <p><a href="dsfs">Canned Actions (Macros)</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-2">
+              <p><a href="dsfs">Ticket Templates</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-3 dark">
+              <p><a href="dsfs">Automatic Time Tracking</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-4">
+              <p><a href="dsfs">SLA management</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-5 dark">
+              <p><a href="dsfs">SLA Breach Notification</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-6">
+              <p><a href="dsfs">Round Robin Ticket Assignment</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-7 dark">
+              <p>
+                <a href="dsfs">Round Robin Ticket Assignment on Active Agents</a>
+              </p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-8">
+              <p><a href="dsfs">Load Balanced Ticket Assignment</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-9 dark">
+              <p><a href="dsfs">Scheduled Tickets</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-10">
+              <p><a href="dsfs">Agent Scripting</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+          </div>
+          <div class="table-row table-row-3">
+            <h4>Support Center</h4>
+            <div class="row-common row-common-0">
+              <p><a href="dsfs">Self-Service Knowledge Base</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-1 dark">
+              <p><a href="dsfs">Internal Knowledge Base</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-2">
+              <p><a href="dsfs">Knowledge Base Notifications</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-3 dark">
+              <p><a href="dsfs">Support Portal Builder</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-4">
+              <p><a href="dsfs">SEO optimization for Knowledge Base</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-5 dark">
+              <p><a href="dsfs">Knowledge base Drafts</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-6">
+              <p><a href="dsfs">Automatic Sitemap Generation</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-7 dark">
+              <p><a href="dsfs">Client Portal</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-8">
+              <p><a href="dsfs">Multilingual Knowledge Base</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-9 dark">
+              <p><a href="dsfs">Code Editor for Support Center</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-10">
+              <p><a href="dsfs">Multi-brand Help Desk with SSL Support #</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-11 dark">
+              <p><a href="dsfs">Multi-branding with Custom Domain</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <span class="table-col">5 brands</span
+                ><span class="table-col">15 brands</span
+                ><span class="table-col">25 brands</span>
+              </div>
+            </div>
+            <div class="row-common row-common-12">
+              <p><a href="dsfs">Contact Group Specific Knowledge Base</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+          </div>
+          <div class="table-row table-row-4">
+            <h4>Help Desk Reportng</h4>
+            <div class="row-common row-common-0">
+              <p><a href="dsfs">Dashboard</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-1 dark">
+              <p><a href="dsfs">Report Filters</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-2">
+              <p><a href="dsfs">Export Tickets to CSV or Excel</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-3 dark">
+              <p><a href="dsfs">Ticket Inflow Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-4">
+              <p><a href="dsfs">Help Desk Performance Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-5 dark">
+              <p><a href="dsfs">Agent Activity Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-6">
+              <p><a href="dsfs">Ticket Distribution Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-7 dark">
+              <p><a href="dsfs">Time Spent Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-8">
+              <p><a href="dsfs">Contact Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-9 dark">
+              <p><a href="dsfs">Canned Actions Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-10">
+              <p><a href="dsfs">Satisfaction Survey Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-11 dark">
+              <p><a href="dsfs">SLA Performance Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-12">
+              <p><a href="dsfs">Custom Field Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-13 dark">
+              <p><a href="dsfs">Contact Group Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-14">
+              <p><a href="dsfs">Scheduled Reports</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-15 dark">
+              <p><a href="dsfs">Ticket Life Cycle Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-16">
+              <p><a href="dsfs">Asset Report</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-17 dark">
+              <p><a href="dsfs">Smart Rule Metrics</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-18">
+              <p><a href="dsfs">Custom Dashboard</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-19 dark">
+              <p><a href="dsfs">Reporting History</a></p>
+              <div class="ticks-grid">
+                <span class="table-col">Last 1 year</span
+                ><span class="table-col">Last 3 year</span
+                ><span class="table-col">Last 5 year</span
+                ><span class="table-col">All Time</span>
+              </div>
+            </div>
+          </div>
+          <div class="table-row table-row-5">
+            <h4>Security</h4>
+            <div class="row-common row-common-0">
+              <p><a href="dsfs">SOC 2 Type II Compliance</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-1 dark">
+              <p><a href="dsfs">Role-Based Security</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-2">
+              <p><a href="dsfs">SSL Certificate Hosting (Custom Domain)</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-3 dark">
+              <p>
+                <a href="dsfs"
+                  >Single Sign-on (Azure, Google, SAML, Okta &amp; more)</a
+                >
+              </p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-4">
+              <p><a href="dsfs">Session-Based Security</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-5 dark">
+              <p><a href="dsfs">Automatic Data Deletion/Redaction</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-6">
+              <p><a href="dsfs">Two Factor Authentication</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-7 dark">
+              <p><a href="dsfs">Data Encryption - Rest and Transit</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-8">
+              <p><a href="dsfs">SSO Lockout Recovery</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-9 dark">
+              <p><a href="dsfs">Your Own Single Sign-on (JWT)</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-10">
+              <p><a href="dsfs">Digitally Signed Emails (DKIM)</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-11 dark">
+              <p><a href="dsfs">Password Policy Management</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-12">
+              <p><a href="dsfs">IP-Based Restriction</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-13 dark">
+              <p><a href="dsfs">Audit Logs</a></p>
+              <div class="ticks-grid">
+                <span class="table-col">Basic</span
+                ><span class="table-col">Basic</span
+                ><span class="table-col">Basic</span
+                ><span class="table-col">Advanced</span>
+              </div>
+            </div>
+          </div>
+          <div class="table-row table-row-6">
+            <h4>Support</h4>
+            <div class="row-common row-common-0">
+              <p><a href="dsfs">Self-Service Portal</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-1 dark">
+              <p><a href="dsfs">HappyFox University</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-2">
+              <p><a href="dsfs">Migration Assistance $</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-3 dark">
+              <p><a href="dsfs">Customizable Support Widget</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-4">
+              <p><a href="dsfs">EU Data Center Hosting (optional)</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-5 dark">
+              <p><a href="dsfs">Uptime SLA</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-6">
+              <p><a href="dsfs">Customer Success Manager</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-7 dark">
+              <p><a href="dsfs">Email Support (PST)</a></p>
+              <div class="ticks-grid">
+                <span class="table-col">5AM-5PM (Mon-Fri)</span
+                ><span class="table-col">24/7</span
+                ><span class="table-col">24/7</span
+                ><span class="table-col">24/7</span>
+              </div>
+            </div>
+            <div class="row-common row-common-8">
+              <p><a href="dsfs">Live Chat Support (PST)</a></p>
+              <div class="ticks-grid">
+                <span class="table-col">8AM-5PM (Mon-Fri)</span
+                ><span class="table-col">5AM-5PM (Mon-Fri)</span
+                ><span class="table-col">24/7</span
+                ><span class="table-col">24/7</span>
+              </div>
+            </div>
+            <div class="row-common row-common-9 dark">
+              <p><a href="dsfs">Phone Support (PST)</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <span class="table-col">8AM-5PM (Mon-Fri)</span
+                ><span class="table-col">5AM-5PM (Mon-Fri)</span
+                ><span class="table-col">24/7</span>
+              </div>
+            </div>
+          </div>
+          <div class="table-row table-row-7">
+            <h4>Third Party Integrations</h4>
+            <div class="row-common row-common-0">
+              <p><a href="dsfs">Aircall</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-1 dark">
+              <p><a href="dsfs">Facebook</a></p>
+              <div class="ticks-grid">
+                <span class="table-col">3 Pages</span
+                ><span class="table-col">5 Pages</span
+                ><span class="table-col">7 Pages</span
+                ><span class="table-col">10 Pages</span>
+              </div>
+            </div>
+            <div class="row-common row-common-2">
+              <p><a href="dsfs">JIRA</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-3 dark">
+              <p><a href="dsfs">Microsoft Teams</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-4">
+              <p><a href="dsfs">Slack</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="view-all">VIEW ALL +</div>
+          </div>
+          <div class="table-row table-row-8">
+            <h4>Inbuilt Integrations</h4>
+            <div class="row-common row-common-0">
+              <p><a href="dsfs">Embeddable Widget</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-1 dark">
+              <p><a href="dsfs">Webhooks</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-2">
+              <p><a href="dsfs">REST API (requests per minute)</a></p>
+              <div class="ticks-grid">
+                <span class="table-col">100</span
+                ><span class="table-col">200</span
+                ><span class="table-col">400</span
+                ><span class="table-col">800</span>
+              </div>
+            </div>
+          </div>
+          <div class="table-row table-row-9">
+            <h4>Mobile</h4>
+            <div class="row-common row-common-0">
+              <p><a href="dsfs">Help Desk Mobile App</a></p>
+              <div class="ticks-grid">
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+            <div class="row-common row-common-1 dark">
+              <p><a href="dsfs">Asset Manager App</a></p>
+              <div class="ticks-grid">
+                <p class="table-col dash"></p>
+                <p class="table-col dash"></p>
+                <p class="table-col tick"></p>
+                <p class="table-col tick"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </down-content>
+
+  <last-content>
+    
+    <div class="back-image-grey" style="display: flex; flex-direction: column;">
+      
+      <div class="faq-content-top">
+        <div class="faq-content">
+          
+          <h3 >Frequently Asked Questions</h3>
+      
+          <div class="accordion">
+            
+            <div class="accordion-item">
+              <button aria-expanded="false" id="firstbutton">
+                <span class="accordion-title"> Who are help desk agents? </span>
+                <i style= "font-size: 13px; float:right;" class="arrow fa-solid fa-angle-down"></i>
+                
+              </button>
+              <div class="content">
+                <p>
+                  Support agents (help desk staff) who will be actively managing and responding to tickets raised by contacts.
+                </p>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <button aria-expanded="false">
+                <span class="accordion-title">What are Categories?</span>
+                <i style= "font-size: 13px; float:right;" class="arrow fa-solid fa-angle-down"></i>
+              </button>
+              <div class="content">
+                <p>
+                  Categories allow you to separate incoming requests into dedicated ticket types that can be distributed to a specific team, have unique SLA requirements, and produce insightful metrics.
+                </p>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <button aria-expanded="false">
+                <span class="accordion-title">How can I change my plan?</span>
+                <i style= "font-size: 13px; float:right;" class="arrow fa-solid fa-angle-down"></i>
+              </button>
+              <div class="content">
+                <p>
+                    You can upgrade your plan at any point in time. However, if you want to downgrade, 
+                    you can do it at the end of the current billing cycle. You may also write to  
+                    <a href="mailto:billing@happyfox.com" style="    color: #FF3A3A;
+                      font-weight: 400;">billing@happyfox.com</a> or contact your Account Executive. 
+                </p>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <button aria-expanded="false">
+                <span class="accordion-title">Do you offer a trial?</span>
+                <i style= "font-size: 13px; float:right;" class="arrow fa-solid fa-angle-down"></i>
+              </button>
+              <div class="content">
+                <p>
+                  Yes. We encourage you to request a demo to determine if HappyFox Help Desk is the right fit for your organization. Once we identify your needs, we'd be happy to provide access to a trial account where you can configure your proof of concept.
+                </p>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <button aria-expanded="false">
+                <span class="accordion-title">Do you offer discounts for non-profits or educational institutes?</span>
+                <i style= "font-size: 13px; float:right;" class="arrow fa-solid fa-angle-down"></i>
+              </button>
+              <div class="content">
+                <p>
+                  We offer a 10% discount on annual subscriptions on any plan.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="product-content">
+        
+        <div class="product-content-inside">
+          
+          <h2 style="margin: 0; padding: 0; font-size: 32px; color: #212529; text-align: center; margin-bottom: 70px; font-weight: 500;">
+            More from HappyFox
+          </h2>
+
+          <div class="products-tags">
+            
+            <div class="product-tag">
+              
+              <img src="https://assets.www.happyfox.com/v2/images/pricing-lc.svg" alt="icon"> 
+              
+              <h4>Live Chat</h4> 
+              
+              <p> Chat with your customers instantly on mobile, desktop, and web. </p> 
+              
+              <a href="https://happyfoxchat.com/v2/signup/">Start free trial <img src="https://assets.www.happyfox.com/v2/images/right-arrow-small.svg" alt="icon"></a>
+              
+            </div>
+            
+            <div class="product-tag">
+
+              <img src="https://assets.www.happyfox.com/v2/images/pricing-lc.svg" alt="icon"> 
+
+              <h4>Chatbot</h4> 
+
+              <p> Chat with your customers instantly on mobile, desktop, and web. </p> 
+
+              <a href="https://happyfoxchat.com/v2/signup/">Get a demo <img src="https://assets.www.happyfox.com/v2/images/right-arrow-small.svg" alt="icon"></a>
+
+            </div>
+
+            <div class="product-tag">
+
+              <img src="https://assets.www.happyfox.com/v2/images/pricing-lc.svg" alt="icon"> 
+
+              <h4>Assist AI</h4> 
+
+              <p> Chat with your customers instantly on mobile, desktop, and web. </p> 
+
+              <a href="https://happyfoxchat.com/v2/signup/">Get a demo <img src="https://assets.www.happyfox.com/v2/images/right-arrow-small.svg" alt="icon"></a>
+
+            </div>
+          </div>
+
+          <div class="products-tags" style="justify-content: flex-start;">
+            
+            <div class="product-tag">
+
+              <img src="https://assets.www.happyfox.com/v2/images/pricing-lc.svg" alt="icon"> 
+
+              <h4>Business Intelligence</h4> 
+
+              <p> Chat with your customers instantly on mobile, desktop, and web. </p> 
+
+              <a href="https://happyfoxchat.com/v2/signup/">Get a demo <img src="https://assets.www.happyfox.com/v2/images/right-arrow-small.svg" alt="icon"></a>
+
+            </div>
+
+            <div class="product-tag">
+
+              <img src="https://assets.www.happyfox.com/v2/images/pricing-lc.svg" alt="icon"> 
+
+              <h4>Workflow Automation</h4> 
+
+              <p> Reduce the grunt work with end to end process automation</p> 
+
+              <a href="https://happyfoxchat.com/v2/signup/">Get a demo <img src="https://assets.www.happyfox.com/v2/images/right-arrow-small.svg" alt="icon"></a>
+
+            </div>
+            
+          </div>
+          
+      </div>
+      
+    </div>
+
+    </div>
+  
+  </last-content>
+
+  <script>
+
+    // for changing the state of button in montly/annual/others.
+    function handleButtonClick(clickedButton) {
+
+    var buttons = document.querySelectorAll('#allButtons button');
+
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].className = 'button-price';
+    }
+      
+    clickedButton.className = 'button-price-selected';
+    }
+
+
+    // for changing the prices when clicking respective buttons.
+    const prices = {
+        monthly: {
+            mighty: 39,
+            fantastic: 59,
+            enterprise: 79,
+            enterpriseplus: 99
+        },
+        annual: {
+            mighty: 29,
+            fantastic: 49,
+            enterprise: 69,
+            enterpriseplus: 89
+        },
+        twoyear: {
+            mighty: 26,
+            fantastic: 39,
+            enterprise: 52,
+            enterpriseplus: 64
+        },
+        threeyear: {
+            mighty: 27,
+            fantastic: 41,
+            enterprise: 55,
+            enterpriseplus: 69
+        }
+    };
+
+    const savings = {
+        annual: {
+            mighty: 25,
+            fantastic: 16,
+            enterprise: 12,
+            enterpriseplus: 10
+        },
+        twoyear: {
+            mighty: 33,
+            fantastic: 34,
+            enterprise: 34,
+            enterpriseplus: 35
+        },
+        threeyear: {
+            mighty: 30,
+            fantastic: 30,
+            enterprise: 30,
+            enterpriseplus: 30
+        }
+    };
+
+    // Function to handle button click and update prices
+    function handlePricingUpdate(billingType) {
+        
+        document.getElementById('mightyPriceValue').innerText = prices[billingType].mighty;
+      
+        document.getElementById('fantasticPriceValue').innerText = prices[billingType].fantastic;
+
+        document.getElementById('enterprisePriceValue').innerText = prices[billingType].enterprise;
+  
+        document.getElementById('enterpriseplusPriceValue').innerText = prices[billingType].enterpriseplus;
+
+        
+      // function to handle savings prices and make the visibility respectively.
+        const savingsParagraphs = document.querySelectorAll('.savings-paragraph');
+        if (billingType === 'monthly')
+          {   
+              savingsParagraphs.forEach((element) => {
+                  element.style.display = 'none';
+              });
+          }
+        else 
+          {
+              const savingsElements = document.querySelectorAll('.saving-num');
+              const planNames = ['mighty', 'fantastic', 'enterprise', 'enterpriseplus'];
+              
+              savingsElements.forEach((savingsElement, index) => {
+                  savingsElement.innerText = savings[billingType][planNames[index]];
+              });
+            
+              savingsParagraphs.forEach((element) => {
+                  element.style.display = 'inline';
+              });
+          }
+    
+    }
+
+    // Initialize with monthly.
+    handlePricingUpdate('monthly');
+    
+    // for the fixed position of the navbar.
+    const firstDiv = document.getElementById('firstDiv');
+    const secondDiv = document.getElementById('secondDiv');
+
+    // Add a scroll event listener to the window
+    window.addEventListener('scroll', function() {
+      // Call the checkIfFirstDivOutOfView function on scroll
+      checkIfFirstDivOutOfView();
+    });
+
+    // Function to check if the first div is out of view
+    function checkIfFirstDivOutOfView() {
+      // Get the bounding box of the first div
+      const boundingBox = firstDiv.getBoundingClientRect();
+
+      // Check if the first div is out of the viewport
+      if (boundingBox.bottom < 0 || boundingBox.top > window.innerHeight) {
+        // The first div is out of view, change the position to fixed.
+        secondDiv.style.position = 'fixed';
+      } else {
+        // The first div is still in view, reset the position to sticky.
+        secondDiv.style.position = 'sticky';
+      }
+    }
+    
+    
+    const items = document.querySelectorAll(".accordion button");
+
+    items.forEach((item) => item.addEventListener("click", toggleAccordion));
+
+    function toggleAccordion() {
+      const itemToggle = this.getAttribute("aria-expanded");
+
+      if (itemToggle === "false") {
+        this.setAttribute("aria-expanded", true);
+      }
+      else
+      {
+        this.setAttribute("aria-expanded", false);
+      }
+    }
+
+    
+  </script>
+
+</body>
+
+</html>
